@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
+$primary :hsl(220, 16%, 96%);
+$secondary : hsl(233, 26%, 24%);
+$font-family-sans-serif : 'Public Sans', sans-serif;
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/hover.css/css/hover-min.css";
+@import "node_modules/hover.css/scss/hover";
+@import "node_modules/animate.css/animate.min.css";
+
+.background-hero-image{
+  background-image: url(/images/bg-intro-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: 151% -175px;
+  background-size: 70%;
+  //background-color: red;
+  height: 85vh;
+}
+p{
+  //font-size: 18px;
+}
+
+.nav-button{
+ background-image: linear-gradient(to right,hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+  border: none;
+}
+.hvr-underline-from-center:before{
+  background-image: linear-gradient(to right,hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+
+}
+
+.header{
+  background: #ffffff7a !important;
+  backdrop-filter: blur(10px) contrast(150%);
+}
+
+.nav-btn{
+  transition: 0.3s !important;
+}
+.nav-btn:hover{
+  transform: translateY(-5px)!important;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card-ani{
+  transition: 0.3s !important;
+}
+.card-ani:hover{
+  transform: translateY(-8px) !important;
+  cursor: pointer;
+  //border: 1px solid black;
+  //box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
